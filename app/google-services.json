@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "997140800982",
+    "project_id": "financas-fad48",
+    "storage_bucket": "financas-fad48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997140800982:android:4abe49a6185aa17140f077",
+        "android_client_info": {
+          "package_name": "com.utfpr.appfinanceiro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997140800982-ag3dqtlolm52ulmnijte3886h6q7fmc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZTGLk0mXqwbJPT7nb1WdZu_vDGoFgh90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997140800982-ag3dqtlolm52ulmnijte3886h6q7fmc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997140800982:android:971989ab8b814dcf40f077",
+        "android_client_info": {
+          "package_name": "com.utfpr.financeiroapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997140800982-ag3dqtlolm52ulmnijte3886h6q7fmc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZTGLk0mXqwbJPT7nb1WdZu_vDGoFgh90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997140800982-ag3dqtlolm52ulmnijte3886h6q7fmc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
