@@ -8,55 +8,68 @@
 
     <TextView
         android:id="@+id/textViewDesc"
-        android:layout_width="321dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_width="79dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="15dp"
         android:text="TextView"
-        android:textColor="#FFC107"
+        android:textColor="@color/design_default_color_primary"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textViewValue"
-        app:layout_constraintEnd_toStartOf="@+id/textViewDate"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewType"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textViewValue"
-        android:layout_width="62dp"
-        android:layout_height="24dp"
+        android:layout_width="64dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="1dp"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.949"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toEndOf="@+id/textViewType"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDate" />
 
     <TextView
         android:id="@+id/textViewDate"
-        android:layout_width="62dp"
-        android:layout_height="20dp"
+        android:layout_width="63dp"
+        android:layout_height="22dp"
         android:text="TextView"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/textViewDesc"
+        app:layout_constraintBottom_toTopOf="@+id/textViewValue"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.949"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewType"
+        android:layout_width="80dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="16dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewDesc"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textViewType"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="235dp"
-        android:text="TextView"
+        android:id="@+id/textView2"
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="80dp"
+        android:text="R$"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textViewValue"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewDesc" />
+        app:layout_constraintEnd_toStartOf="@+id/textViewDate"
+        app:layout_constraintStart_toEndOf="@+id/textViewType"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

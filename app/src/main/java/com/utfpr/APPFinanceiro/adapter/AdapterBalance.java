@@ -53,7 +53,7 @@ public class AdapterBalance extends RecyclerView.Adapter<AdapterBalance.ViewHold
         holder.textDesc.setText(c.getDesc());
         holder.textDate.setText(c.getDate());
 
-        if (c.getTypeBalance() == "1") {
+        if (c.getTypeBalance().equals("1")) {
             holder.textType.setText("Despesas");
         } else {
             holder.textType.setText("Receita");
